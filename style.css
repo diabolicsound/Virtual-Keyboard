@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html {
+    margin: 0 auto;
+}
+
+.page {
+    margin: 0 auto;
+    width: 999px;
+}
+
+.textarea {
+    height: 150px;
+    width: 1024px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.usual {
+    display: inline-block;
+    background-color: #343D39;;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: #1BDA85;
+    border-radius: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.usual:hover {
+    background-color: rgb(255, 145, 1);
+    transform: scaleY(1.1);
+    transition: transform 0.1s linear 0.2s;
+    transition: background-color 0.3s linear;
+}
+
+.usual:active {
+    background-color: coral;
+    border-radius: 20%;
+    transition: border-radius 0.3s linear, background-color 0.3s linear;
+}
+
+
+.service {
+    background-color: black;
+    color: wheat;
+}
+
+.backspace {
+    width: 150px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 17px;
+    padding-top: 9px;
+
+}
+
+.tab {
+    width: 100px;
+}
+
+.caps {
+    width: 138px;
+}
+
+.enter {
+    width: 123px;
+}
+
+.shift {
+    width: 130px;
+}
+
+.ctrl {
+    width: 75px;
+}
+
+
+ .win {
+    width: 75px;
+}
+
+ .alt {
+    width: 75px;
+}
+
+
+.space {
+    width: 232px;
+}
+
+.eng {
+    line-height: 45px;
+    font-size: 24px;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+.ru {
+    line-height: 45px;
+    font-size: 24px;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.ShiftButPic {
+    position: absolute;
+    font-size: 12px;
+    margin-left: -24px;
+}
+
+.rusShiftButPic {
+    position: absolute;
+    font-size: 12px;
+    margin-left: -24px;
+}
+
+.backslash {
+    width: 100px;
+}
+
+.paragraph {
+    font-size: 28px;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
