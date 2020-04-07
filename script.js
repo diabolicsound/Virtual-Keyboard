@@ -93,12 +93,10 @@ const keyboard = {
         ];
 
         let j = 0;
-        
+
         if (localStorage.getItem('ru') == null) {
             localStorage.setItem('ru', 'false');
         }
-
-        localStorage.setItem('ru', this.properties.ru);
         document.addEventListener('keydown', () => {
             if (event.altKey && event.shiftKey) {
                 this.properties.ru == 'true' ? this.properties.ru = 'false' : this.properties.ru = 'true';
