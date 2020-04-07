@@ -93,6 +93,10 @@ const keyboard = {
         ];
 
         let j = 0;
+        
+        if (localStorage.getItem('ru') == null) {
+            localStorage.setItem('ru', 'false');
+        }
 
         localStorage.setItem('ru', this.properties.ru);
         document.addEventListener('keydown', () => {
@@ -458,5 +462,3 @@ const keyboard = {
 
 keyboard.basepage();
 
-console.log(keyboard.properties.value)
-console.log(keyboard.properties.ru)
